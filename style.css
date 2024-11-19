@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV BAR STYLING */
+.nav-link{
+    margin-left: 20px;
+}
+
+
+/* HERO SECTION STYLING */
+.maincontainer_margin {
+    margin: auto;
+    margin-top: 80PX;
+    width: 100%;
+}
+
+.hero-content h1 {
+    margin-bottom: 50px;
+    font-size: 5rem;
+    letter-spacing: 1.4px;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+/* PROJECTS DASHBOARD  STYLING */
+.btn{
+    border-radius: 2px;
+}
+
+.projects_dashboard {
+    margin: 85px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dash_content div h2 {
+    color: #545454;
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+.dash_content div p{
+    font-size: 15px;
+    color: #545454;
+}
+
+
+
+.proj_imgs{
+    position: relative;
+    
+}
+
+.proj_imgs .under_img {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 8em;
+    height: 8em;
+    border: 1px solid black;
+    z-index: -1;
+}
+
+.proj_imgs .upper_img {
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+    width: 8em;
+    height: 8em;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SERVICES STYLING */
+
+.service_container {
+    display: flex;
+    color: #1f1f1f;
+}
+.service_container img {
+    width: 30%;
+    height: 50%;
+    margin-right: 20px;
+}
+.services_main_container h2 {
+    display: flex;
+   align-items: center;
+}
+
+.inteernal_line {
+    display: inline-block;
+    width: 50px;
+    height: 3px;
+    background-color: #1f1f1f;
+    margin-right: 15px;
+    margin-top: 5px;
+
+}
+
+
+/* DESINGING SECTION STYLING */
+.design_o_cont {
+    margin: 85px 0;
+    
+}
+
+.d_header_h1{
+    color: #1f1f1f;
+}
+
+
+.mline{
+    width: 1px;
+    height: 50px;
+    background-color:#545454;
+
+}
+
+.ds_img {
+    max-width: 100%;
+    max-height: 600px;
+}
+
+
+/* COMMENT SECTION STYLING */
+.larrow, .rarrow {
+    background-color: #F1F1F1;
+    font-size: 2rem;
+    width: 1.5em;
+    height: 1.5em;
+    
+}
+
+
+.c_main_container{
+    position: relative;
+   
+}
+
+ 
+
+.ccomment {
+    position: absolute;
+    top: 27%;
+    left: 18%;
+    max-width:40%;
+    height: 90%;
+}
+.ccomment2 {
+    position: absolute;
+    top: 27%;
+    left: 61%;
+    max-width:40%;
+    height: 90%;
+}
+
+/* SUBSCRIBTION CONTAINER AND FORM */
+.sub_container {
+    position: relative;
+    padding: 150px 80px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sub_container h2{
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.input_cont {
+    position: relative;
+}
+
+.sub_container form input {
+   position: absolute;
+   top: 0;
+   right: 0;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    
+
+}
+
+.sub_container form {
+    position: absolute;
+    bottom: -5px;
+    left: 65%;
+}
+
+.input_cont button {
+    
+    position: absolute;
+    top: 5px;
+    right: 6px;
+}
+
+
+/* FOOTER STYLING */
+.footer_content_container{
+    padding: 100px 0;
+}
+
+
+
+.footer_links a{
+    text-decoration: none;
+    color: #F1F1F1;
+    line-height: 40px;
+}
+
+.footer_links a:hover, .footer_links a:focus{
+    color:white;
+}
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    .ccomment {
+    height: 500px;
+
+      
+    }
+
+    .ccomment img, .ccomment2 img {
+        padding: 30px 0;
+    }
+    .ccomment p, .ccomment2 p {
+        font-size: 1.5rem;
+        word-spacing: 4px;
+        line-height: 40px;
+        letter-spacing: 1.2px;
+    }
+
+    .ccomment2 {
+        height: 500px;
+    }
+    .sub_container form button {
+        position: absolute;
+        right: 39%;
+    }
+
+}
+
